@@ -33,6 +33,8 @@ agent_object = create_agent(
 ## Step 2: Create `langgraph.json`
 Create a `langgraph.json` file in your project root. This configuration maps the CLI to your graph implementation and specifies dependency management.
 
+Refer [LangGraph CLI Doc](https://docs.langchain.com/langsmith/cli#configuration-file) for more details on how to setup this `.json` file.
+
 ```json
 {
   "dependencies": ["."],
